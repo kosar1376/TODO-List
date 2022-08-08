@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Mouse+Memoirs&family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+    min-height:100vh;
+    font-family: 'Poppins', sans-serif;
+    
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+form {
+   min-width:25%;
+    min-height: 55vh;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    border-radius:1%;
+    margin:10% 37%;
+    background-color: white;
+    box-shadow: 4px 6px 8px 0 rgba(87, 85, 85, 0.2), 4px 6px 20px 0 rgba(86, 85, 85, 0.19),5px 6px 20px 0 rgba(131, 129, 129, 0.19) ;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+ form h1{
+    margin: 4% 8%;
+     text-shadow: 4px 4px 6px rgb(154, 150, 150)
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ }
+
+ .errortext{
+     color:red;
+     text-align: center;
+     font-size: 1rem;
+     font-weight: bold;
+ }
+
+ 
